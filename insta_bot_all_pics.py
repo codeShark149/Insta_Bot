@@ -64,8 +64,6 @@ class InstagramBot:
         for row in current_rows:
             updated_row_list = []
             #scrol the pic for errorless clicking
-            row_count += 1
-            print(row_count)
             driver.execute_script("arguments[0].scrollIntoView();",row)
 
             #update the artcile due to scrolling
