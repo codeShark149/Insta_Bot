@@ -81,6 +81,6 @@ class InstagramBot:
         #popup_text = element.find_element(By.TAG_NAME, 'h2').get_attribute('innerHTML')
         
 
-saptarshi = InstagramBot("rajarshi149","Rajarshi_149")
-saptarshi.like_photo('pujadays')
+saptarshi = InstagramBot("username","password")
+saptarshi.like_photo('hashtag')
 saptarshi.closeBrowser()
