@@ -60,7 +60,6 @@ class InstagramBot:
         article = wait.until(EC.presence_of_element_located((By.XPATH, '//article[@class="KC1QD"]')))
         current_rows = article.find_elements(By.XPATH, '//div[@class="Nnq7C weEfm"]')
         #execute like in each pics of the "Top Post" section
-        row_count = 0
         for row in current_rows:
             updated_row_list = []
             #scrol the pic for errorless clicking
